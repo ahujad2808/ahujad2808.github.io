@@ -1,9 +1,10 @@
 class Animation {
   constructor(canvasId) {
       this.canvas = document.getElementById('myCanvas');
-      this.canvas.style.backgroundImage = "url('assets/background.jpg')";  
+      this.canvas.style.backgroundImage = "url('assets/background (1) (1).jpg')";  
       this.canvas.style.backgroundSize = "cover";
       this.canvas.style.backgroundRepeat = "no-repeat";
+      this.canvas.style.position = "relative";
       this.ctx = this.canvas.getContext('2d');
 
       this.ballX = 350;
